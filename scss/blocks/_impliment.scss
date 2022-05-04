@@ -1,0 +1,113 @@
+.implement{
+    &__container{
+        padding: 150px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__heading{
+        margin: 0;
+        margin-bottom: 24px;
+        padding: 0;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #6C8294;
+        max-width: 445px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .site-work{
+        &__container {
+            max-width: 1352px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    .site-work{
+        &__container {
+            max-width: 960px;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .site-work {
+        &__container{
+            margin: 0 auto;
+            flex-direction: column-reverse;
+            max-width: 720px;
+            text-align: center;
+        }
+        &__left{
+            margin-top: 64px;
+        }
+
+        &__heading{
+            margin: 0 auto;
+            margin-bottom: 24px;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: -0.369231px;
+            color: #FBFCFE;
+
+        }
+
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .site-work{
+        max-width: 600px;
+        margin: 0 auto;
+
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .site-work{
+        max-width: 100%;
+        &__right{
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+        }
+        &__right-top{
+            margin: 0;
+            padding: 0;
+        }
+        &__link{
+            max-width: 140px;
+            margin-left: 30px;
+            margin-top: 47px;
+        }
+
+
+
+        &__heading{
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+            letter-spacing: -0.246154px;
+            color: #FBFCFE;
+            max-width: 327px;
+        }
+
+    }
+}

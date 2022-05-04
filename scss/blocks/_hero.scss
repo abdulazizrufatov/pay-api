@@ -1,0 +1,132 @@
+.hero{
+    padding: 75px 20px;
+    display: flex;
+    align-items: center;
+    &__box{
+        margin-right: 205px;
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 21px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -0.553846px;
+        color: #36536B;
+        max-width: 546px;
+
+    }
+    &__form{
+        display: flex;
+        background: white;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+    }
+    &__input{
+        padding-top: 15px;
+        padding-right: 150px;
+        padding-bottom: 15px;
+        padding-left: 27px;
+        border: none;
+        background: white;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+    }
+    &__button{
+        right: 20px;
+        padding: 15px 25px;
+        margin-left: 0px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: -0.115385px;
+        color: #FBFCFE;
+        border: none;
+        background: #BA4270;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+    }
+    &__button:hover{
+        background: #DA6D97;
+    }
+
+
+}
+@media only screen and (max-width: 1440px){
+    .hero{
+        &__container {
+            max-width: 1352px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    .hero{
+        &__container {
+            max-width: 960px;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .hero {
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        max-width: 720px;
+        &__box{
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__heading{
+            margin: 0 auto;
+            margin-bottom: 22px;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: -0.369231px;
+            color: #36536B;
+
+        }
+
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        max-width: 600px;
+        margin: 0 auto;
+
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .hero{
+        max-width: 100%;
+        &__heading{
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+            letter-spacing: -0.246154px;
+            color: #36536B;
+            max-width: 327px;
+        }
+        &__form{
+            flex-direction: column;
+            background: none;
+            border: none;
+            box-shadow: none;
+        }
+        &__input{
+            margin-bottom: 16px;
+            width: 100%;
+
+        }
+
+    }
+}
